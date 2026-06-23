@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Project page for the paper 'Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior'">
+  <meta property="og:title" content="Rethinking Psychometric Evaluation of LLMs">
+  <meta property="og:description" content="When and why LLM self-reports predict behavior across frameworks, conversational context, and persona induction.">
+  <meta property="og:url" content="https://psychology-of-ai.github.io/psychometric-evaluation.html">
+  <meta property="og:image" content="static/images/psycohere_framework_v4_better.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:title" content="Rethinking Psychometric Evaluation of LLMs">
+  <meta name="twitter:description" content="Project page for our paper on when and why LLM self-reports predict behavior.">
+  <meta name="twitter:image" content="https://psychology-of-ai.github.io/static/images/psycohere_framework_v4_better.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="LLM, psychometrics, self-report, behavior, Theory of Planned Behavior, personality, AI evaluation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior</title>
+  <link rel="icon" type="image/x-icon" href="static/images/psych_of_ai.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <strong>Psychology of AI</strong>
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="index.html">Home</a>
+      <a class="navbar-item" href="personality-illusion.html">Personality Illusion</a>
+      <a class="navbar-item is-active" href="psychometric-evaluation.html">Rethinking Psychometric Evaluation</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="container is-widescreen">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Rethinking Psychometric Evaluation of LLMs:<br>When and Why Self-Reports Predict Behavior</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://www.rkocielnik.com/" target="_blank">Rafal Kocielnik</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://pengrui-han.github.io/" target="_blank">Pengrui Han</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://peiyang-song.github.io/" target="_blank">Peiyang Song</a><sup>1</sup>,</span>
+            <span class="author-block">Myrl G. Marmarelis<sup>1</sup>,</span>
+            <span class="author-block"><a href="https://www.chia.cam.ac.uk/team/ramit-debnath" target="_blank">Ramit Debnath</a><sup>3</sup>,</span>
+            <span class="author-block"><a href="https://www.deanmobbslab.com/" target="_blank">Dean Mobbs</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://www.rmichaelalvarez.com/" target="_blank">R. Michael Alvarez</a><sup>1</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>California Institute of Technology; <sup>2</sup>University of Illinois Urbana-Champaign; <sup>3</sup>University of Cambridge</span>
+            <br><b>Preprint: </b>arXiv, 2026
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2606.12730v1" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="static/images/psycohere_framework_v4_better.jpg" alt="Experimental framework" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <h2 class="subtitle has-text-left" style="margin-top: 1rem;">
+        We revisit the self-report--behavior gap in LLM psychometrics by testing when coherence can appear and when it collapses. Across 4 behavioral tasks and 11 frontier LLMs, we vary <i>(RQ1)</i> whether self-reports and behavior share a conversation, <i>(RQ2)</i> whether the instrument is behavior-specific or broad personality, <i>(RQ3)</i> whether context is separated across sessions, and <i>(RQ4)</i> whether persona grounding creates a stable identity across sessions.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Anticipating LLM behavioral tendencies from low-cost psychometric probes is critical for safe deployment, but only if self-reports reliably predict behavior. Recent work documented substantial self-report--behavior dissociation in LLMs, but relied on broad personality traits that predict specific behaviors weakly even in humans. We contrast Big Five with the Theory of Planned Behavior, a behavior-specific framework for measuring intention toward target actions, and vary session context and identity induction across four behavioral tasks and 11 frontier LLMs. We find that coherence exists but is selective: within a shared conversation, Theory of Planned Behavior reaches human-level coherence while Big Five does not; across separate conversations, coherence survives only for behaviors anchored outside the immediate prompt and collapses for context-sensitive behavior; persona prompting stabilizes self-reports but does not bring behavior into alignment. These findings suggest that LLM psychometrics needs task-specific instruments and context-sensitive validation, not only broad personality questionnaires.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser" style="padding-top: 2rem;">
+  <div class="container is-max-desktop">
+    <h2 class="title is-4">RQ1 (Best-case Coherence): <span style="font-size: 0.95em;">Under favorable conditions, do self-reports predict behavior?</span></h2>
+    <div class="hero-body has-text-centered">
+      <img src="static/images/rq1_coherence_forest.png" alt="RQ1 coherence results" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <h2 class="subtitle has-text-left" style="margin-top: 1rem;">
+        We first test the strongest possible setting for coherence: self-reports and behavior are produced in the same conversation, using behavior-specific Theory of Planned Behavior probes. Under this shared-context condition, LLM self-reported intentions substantially predict behavior on volitional tasks, reaching the scale of human predictive baselines. This establishes that self-report--behavior coherence can emerge when the instrument is specific and the behavioral choice can see the preceding self-report context.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-4">RQ2 (Framework Specificity): <span style="font-size: 0.95em;">Does TPB granularity outperform Big Five personality?</span></h2>
+      <div class="hero-body has-text-centered">
+        <img src="static/images/rq2_framework_summary.png" alt="RQ2 framework comparison" style="max-width: 100%; height: auto; display: block; margin: 0 auto 1rem;">
+        <h2 class="subtitle has-text-left">
+          Holding the shared-context condition fixed, we compare the Theory of Planned Behavior with Big Five traits mapped to the same tasks. The fine-grained, task-anchored TPB probes remain predictive across volitional tasks and most models, while Big Five correlations are near zero. The result reframes the earlier dissociation: broad personality questionnaires may miss behaviorally meaningful structure that task-specific instruments can reveal.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser" style="padding-top: 2rem;">
+  <div class="container is-max-desktop">
+    <h2 class="title is-4">RQ3 (Context Separation): <span style="font-size: 0.95em;">Does coherence survive when sessions are separated?</span></h2>
+    <div class="hero-body has-text-centered">
+      <img src="static/images/rq3_context_summary.png" alt="RQ3 context separation results" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <h2 class="subtitle has-text-left" style="margin-top: 1rem;">
+        We then remove the response context by eliciting self-reports and behavior in separate conversations. Coherence collapses for most models, especially on context-sensitive tasks such as sycophancy. It survives most clearly when behavior is anchored outside the immediate prompt, such as implicit bias or partially stable honesty behavior. This suggests that some same-session coherence reflects context-window coupling rather than a durable behavioral disposition.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-4">RQ4 (Persona Induction): <span style="font-size: 0.95em;">Can persona grounding rescue cross-session coherence?</span></h2>
+      <div class="hero-body has-text-centered">
+        <img src="static/images/rq4_induction_summary.png" alt="RQ4 persona induction results" style="max-width: 100%; height: auto; display: block; margin: 0 auto 1rem;">
+        <h2 class="subtitle has-text-left">
+          Persona prompts create richer and more stable self-reports across sessions, but they do not restore self-report--behavior coupling. Models can say more distinct and consistent things about themselves while their downstream behavior remains decoupled. This is especially relevant for customized deployments, where a persona may change psychometric presentation without reliably changing action.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser is-light" style="padding-top: 2rem;">
+  <div class="container is-max-desktop">
+    <h2 class="title is-4">Conclusion: <span style="font-size: 0.95em;">Self-reports are conditionally diagnostic, not universally behavioral.</span></h2>
+    <div class="hero-body has-text-centered">
+      <h2 class="subtitle has-text-left" style="margin-top: 1rem;">
+        Our results show that LLM self-reports can predict behavior, but only under specific measurement conditions. Behavior-specific instruments such as the Theory of Planned Behavior are more informative than broad personality traits, and shared conversational context can make self-reports behaviorally predictive. Once context is separated, coherence depends on the task and often disappears. Psychometric evaluation of LLMs should therefore validate the instrument, the task, and the conversational setting together rather than treating self-reports as stable internal traits.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <pre><code>@misc{kocielnik2026rethinkingpsychometricevaluationllms,
+      title={Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior},
+      author={Rafal Kocielnik and Pengrui Han and Peiyang Song and Myrl G. Marmarelis and Ramit Debnath and Dean Mobbs and Anima Anandkumar and R. Michael Alvarez},
+      year={2026},
+      eprint={2606.12730},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.12730v1},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page follows the structure of the Personality Illusion project page and the site shell style of the <a href="https://leandojo.org/index.html" target="_blank">LeanDojo</a> website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
